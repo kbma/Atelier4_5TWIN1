@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a105dfb-f69c-468e-83f3-1ecb379b70f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/atelier4_5twin1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6a105dfb-f69c-468e-83f3-1ecb379b70f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603699966434</updated>
       <workItem from="1603699967519" duration="4564000" />
-      <workItem from="1603710913680" duration="916000" />
+      <workItem from="1603710913680" duration="1507000" />
     </task>
     <servers />
   </component>

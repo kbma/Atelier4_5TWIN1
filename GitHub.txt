@@ -1,7 +1,7 @@
 //or create a new repository on the command line
 echo "# Atelier4_5TWIN1" >> README.md
 git init
-git add .
+git add A
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/kbma/Atelier4_5TWIN1.git
