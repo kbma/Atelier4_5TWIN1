@@ -14,17 +14,31 @@
                         </div>
                     @endif
 
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="Categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Categories
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="Categories">
-                                <a class="dropdown-item" href="{{route('category.index')}}">Ajouter</a>
-                                <a class="dropdown-item" href="#">Lister</a>
-                                <a class="dropdown-item" href="#">Rechercher</a>
+                        <div class="d-flex">
+                            <div class="dropdown mr-1">
+                                <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                                    Categories
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                    <a class="dropdown-item" href="{{route('category.index')}}">Lister</a>
+                                    <a class="dropdown-item" href="{{route('category.create')}}">Ajouter</a>
+                                    <a class="dropdown-item" href="">Rechercher</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-success">Produits</button>
+                                <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                    <a class="dropdown-item" href="{{route('product.index')}}">Lister</a>
+                                    <a class="dropdown-item" href="{{route('product.create')}}">Ajouter</a>
+                                    <a class="dropdown-item" href="#">Rechercher</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
                             </div>
                         </div>
-
 
                     @yield('contenu')
 
